@@ -69,7 +69,9 @@ ender{
     text-align: center;
     font-size: 40px;
     /*move text up somehow*/
+
 }
+
 
 #descriptiveText{
     padding: 10px 10px 10px 20px;
@@ -93,7 +95,6 @@ ender{
 #topPicture{
     grid-row: 2/3;
     grid-column: 2/3;
-
 }
 
 
@@ -114,11 +115,15 @@ ender{
     grid-column: 4/5;
 }
 
+#articlePicture{
+    float: left;
+    padding-right: 20px;
+}
 
 
-
-
-
+#articleText{
+    padding-top: 10px;
+}
 
 
 
