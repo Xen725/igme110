@@ -23,7 +23,7 @@ img{
     grid-template-rows: 50px 80px 60px 1fr 60px 50px;
 }
 
-#logospace{
+#topspace{
     background-color: rgb(153, 153, 153);
     grid-row: 1/2;
 }
