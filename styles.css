@@ -10,7 +10,7 @@
 
 img{
     padding: 10px;
-    max-height: 400px;
+    max-height: 200px;
     max-width: 300px;
 }
 
@@ -124,6 +124,10 @@ img{
 #titleText{
     text-align: center;
     font-size: 40px;
+}
+
+#sourceContent{
+    padding-left: 20px;
 }
 
 
