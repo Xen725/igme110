@@ -88,7 +88,7 @@ ender{
 
 #nested{
     display : grid;
-    grid-template-rows: 50px 1fr 50px 1fr 50px;
+    grid-template-rows: 60px 1fr 50px 1fr 50px;
     grid-template-columns: 50px 1fr 50px 3fr 50px;
 }
 
@@ -115,14 +115,18 @@ ender{
     grid-column: 4/5;
 }
 
-#articlePicture{
-    float: left;
-    padding-right: 20px;
+#articleTitle{
+    font-size: 50px;
 }
 
+#articleContent{
+    grid-row: 1/5;
+    grid-column: 4/5;
+    padding-top: 20px;
+}
 
-#articleText{
-    padding-top: 10px;
+#articlePicture{
+    padding-top: 40px;
 }
 
 
